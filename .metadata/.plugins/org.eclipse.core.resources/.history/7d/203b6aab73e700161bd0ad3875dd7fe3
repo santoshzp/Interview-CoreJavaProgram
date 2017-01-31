@@ -1,0 +1,16 @@
+package com.santosh.typecast;
+
+public class TypeCast {
+	public static void main(String[] args) {
+		
+		System.out.println("Fundamental Variable Type Casting");
+		int a=10;
+		float b;
+		
+		b=a;// implicit type casting
+		
+		System.out.println("a="+a);
+		System.out.println("b="+b);
+	}
+
+}

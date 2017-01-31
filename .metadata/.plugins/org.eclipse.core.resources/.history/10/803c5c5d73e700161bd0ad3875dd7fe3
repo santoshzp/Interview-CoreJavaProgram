@@ -1,0 +1,8 @@
+package com.santosh.typecast;
+
+public class TypeCast {
+	public static void main(String[] args) {
+		
+	}
+
+}

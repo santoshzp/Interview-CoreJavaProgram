@@ -1,0 +1,78 @@
+package com.santosh.typecast;
+
+public class TypeCast {
+	public static void main(String[] args) {
+		
+		System.out.println("Fundamental Variable Type Casting");
+		int a=10;
+		float b;
+		
+		b=a;// implicit type casting
+		System.out.println("===================Implict Type Casting=====================");
+		System.out.println("a="+a);
+		System.out.println("b="+b);
+		
+		
+		float c=20.20f;
+		int d;
+				d=(int)c;// explicit type casting
+		System.out.println("===================Explicit Type Casting=====================");		
+		System.out.println("C="+c);
+		System.out.println("d="+d);
+		
+		int p=98;
+		char ch=(char)p;
+		int k=ch;
+		System.out.println("char type ch="+ch);
+		System.out.println("int k="+k);
+		
+		System.out.println("***Fundamental vairable type casting to Wapper object-II");
+		
+		int a1=101;
+		Integer z=a1;   //auto boxing
+		Float f=(float)z;
+		//Object f1=z;
+		System.out.println("=================Auto Boxing===================");
+		System.out.println("Auto Boxing=="+z);
+		System.out.println("Auto boxing Explicit="+f);
+		
+		Double dd=300.343d;
+		double ddd=dd;
+		System.out.println("=================Auto UNBoxing===================");
+		System.out.println("Auto un boxing="+ddd);
+		
+		
+		System.out.println("OBJECT Type CASTING......III");
+		
+		Object o="santosh";
+		String s=(String) o;
+		System.out.println("Object type castring to String="+s);
+		
+		System.out.println("---------------------------------------------------------");
+		Object obj=1000;
+		System.out.println("Obj="+obj);
+		
+		//obj=obj+1;
+		
+		Integer io=(Integer)obj;
+		int x1=io.intValue(); //this methed is optional bcz by default intvalue() method call
+		
+		x1=x1+1;
+		
+		System.out.println("x1="+x1);
+		System.out.println("-------------------");
+		Object str="santosh";
+		//int len=str.length(); //  Invalid
+		 
+		int len =((String)str).length();
+		System.out.println("length of String="+len);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
