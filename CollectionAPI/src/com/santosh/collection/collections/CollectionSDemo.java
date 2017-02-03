@@ -1,0 +1,48 @@
+package com.santosh.collection.collections;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Scanner;
+
+public class CollectionSDemo {
+	/*public static void main(String[] args) {
+		
+	}*/
+	public void sortName(){
+		Scanner s=new Scanner(System.in);
+		System.out.println("-------------------------------------------");
+		System.out.println("Enter how many name we want to sort=");
+		int n=Integer.parseInt(s.nextLine());
+		System.out.println("----------------------------------------------");
+		String str[]=new String[n];
+		
+		//
+		for(int i=0;i<n;i++){
+			System.out.println("Enter name=");
+			str[i]=s.nextLine();
+		}
+		
+		List list	= Arrays.asList(str);
+		System.out.println("List="+list);
+		
+		System.out.println("---------------Reversed values-------------");
+		Collections.reverse(list);
+		System.out.println("Revers="+list);
+		System.out.println("--------Sort values================");
+		Collections.sort(list);
+		
+		Iterator it=list.iterator();
+		
+		while(it.hasNext())
+		{
+			System.out.println(it.next());
+		}
+		
+		System.out.println("--------------------------------------");
+		System.out.println("Max="+Collections.max(list));
+		System.out.println("Min="+Collections.min(list));
+	}
+
+}

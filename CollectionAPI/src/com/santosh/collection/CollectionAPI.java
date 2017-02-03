@@ -14,7 +14,7 @@ public class CollectionAPI {
 		Employee e	=	new Employee();
 		e.setEmployeeId(10);
 		e.setEmployeeName("santosh");
-		e.setEmployeeSalary("500000");
+		e.setEmployeeSalary(500000d);
 				
 		//coll.add(e);//1
 		collection.add(e);

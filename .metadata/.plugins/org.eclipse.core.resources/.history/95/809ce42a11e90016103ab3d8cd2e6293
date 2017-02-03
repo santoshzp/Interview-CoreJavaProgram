@@ -1,0 +1,17 @@
+
+public class Literals {
+
+	public static void main(String[] args) {
+		int decimal=10;
+		int ocatal=010;
+		int hexdecimal=0x10;
+		System.out.println("Decimal="+decimal);
+		System.out.println("Ocatial="+ocatal);
+		System.out.println("Hexdeciamal="+hexdecimal);
+		
+		int dec=Integer.parseInt("decimal",decimal)
+				
+
+	}
+
+}

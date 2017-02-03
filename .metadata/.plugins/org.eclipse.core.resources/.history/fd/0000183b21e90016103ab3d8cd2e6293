@@ -1,0 +1,38 @@
+
+public class Literals {
+
+	
+	public static void sum(int ...x){
+		sum();
+		sum(10,20);
+		sum(10,20,30);
+	}
+	public static void main(String[] args) {
+		/*int decimal=10;
+		int ocatal=010;
+		int hexdecimal=0xbeef;
+		System.out.println("Decimal="+decimal);
+		System.out.println("Ocatial="+ocatal);
+		System.out.println("Hexdeciamal="+hexdecimal);
+		
+		String HextoDEC=Integer.toHexString(hexdecimal);
+		System.out.println("HExDEC="+HextoDEC);
+		//char ch[]=new char[65535];
+		for(char i=0;i<65535;i++){
+			
+		System.out.println("Char max="+i);
+		}
+		char a='\u0062';
+		System.out.println("UNICode a="+a);
+		int xs=0b1111;
+		System.out.println(xs);*/
+		
+		
+		int total=0;
+		for(int x1:x){
+			total=total+x1;
+		}
+		System.out.println("SUM="+total);
+	}
+
+}

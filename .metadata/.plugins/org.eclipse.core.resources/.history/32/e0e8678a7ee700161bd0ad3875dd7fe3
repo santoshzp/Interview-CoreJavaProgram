@@ -1,0 +1,12 @@
+package com.santosh.collection;
+
+import java.util.Scanner;
+
+public class FindMinAndMax {
+	int a[];
+	
+	public void readValue(){
+		Scanner scanner =	new Scanner(System.in);
+	}
+
+}

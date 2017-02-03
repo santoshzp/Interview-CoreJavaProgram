@@ -1,0 +1,25 @@
+package com.santosh.collection;
+
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class FindMinAndMax {
+	int a[];
+	
+	public void readValue(){
+		Scanner scanner =	new Scanner(System.in);
+		System.out.println("Enter How many value =");
+		int n=Integer.parseInt(scanner.nextLine());
+		a=new int[n];
+		
+		for(int i=0;i<n;i++){
+			System.out.println("Enter Value=");
+			a[i]=Integer.parseInt(scanner.nextLine());
+		}
+	}
+	
+	public LinkedList findMaxMin() {
+		
+	}
+
+}

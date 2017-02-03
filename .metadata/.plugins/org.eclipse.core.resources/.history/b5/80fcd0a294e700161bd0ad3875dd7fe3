@@ -1,0 +1,13 @@
+package com.santosh.model;
+
+import java.util.Date;
+
+public class Orders {
+	
+	private int id;
+	private int orderNumber;
+	private Date date;
+	private String thali;
+	private Customer customer;
+
+}

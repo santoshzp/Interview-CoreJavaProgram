@@ -1,0 +1,36 @@
+package com.santosh.collection.treeSet;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.santosh.collection.ListOfOrders;
+import com.santosh.model.Customer;
+import com.santosh.model.Orders;
+
+public class CustomerOrder {
+	
+		public static void main(String[] args) {
+			ListOfOrders s=new ListOfOrders();
+			List<Orders> list=s.order();
+			Customer c=new Customer();
+			List l= new ArrayList();
+			System.out.println(list.size());
+			for(Orders p:list){
+				
+				
+				if(l.contains(c))
+				{
+					c.setCustomerId(p.getId());
+				}
+				
+				c.setCustomerId(p.getId());
+				c.setContactNumber(contactNumber);
+				c.setCustomerId(p.getCustomer().getCustomerId());
+				l.add(c);
+				
+				
+				
+			}
+			
+		}
+}

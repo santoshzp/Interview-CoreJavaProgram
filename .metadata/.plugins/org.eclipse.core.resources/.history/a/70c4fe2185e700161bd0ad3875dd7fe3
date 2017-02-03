@@ -1,0 +1,14 @@
+package com.santosh.collection.arraylist;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class EmployeeDTO {
+	public ArrayList EmpDTO() {
+		Scanner scanner = new Scanner(System.in);
+		Employee
+		System.out.println("Enter employeeId");
+		
+		
+	}
+}

@@ -1,0 +1,14 @@
+package com.santosh.collection.Stack;
+
+import java.util.Stack;
+
+public class StackDemo {
+	public static void main(String[] args) {
+		Stack s=new Stack();
+		System.out.println("containts="+s);
+		System.out.println("size=="+s.size());
+		
+		
+	}
+
+}

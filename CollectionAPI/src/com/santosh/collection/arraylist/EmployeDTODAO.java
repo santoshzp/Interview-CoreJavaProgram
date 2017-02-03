@@ -1,0 +1,13 @@
+package com.santosh.collection.arraylist;
+
+import java.util.ArrayList;
+
+public class EmployeDTODAO {
+	public static void main(String[] args) {
+		EmployeeDTO empDTO=new EmployeeDTO();
+		ArrayList al=empDTO.empDTO();
+		empDTO.empDAO(al);
+		
+	}
+
+}

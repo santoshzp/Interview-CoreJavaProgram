@@ -1,0 +1,9 @@
+package com.santosh.collection.arraylist;
+
+public class EmployeDTODAO {
+	public static void main(String[] args) {
+		EmployeeDTO empDTO=new EmployeeDTO();
+		ArrayList al=empDTO.empDTO();
+	}
+
+}

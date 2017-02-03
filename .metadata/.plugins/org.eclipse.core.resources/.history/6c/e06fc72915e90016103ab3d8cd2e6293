@@ -1,0 +1,19 @@
+
+public class Literals {
+
+	public static void main(String[] args) {
+		int decimal=10;
+		int ocatal=010;
+		int hexdecimal=0xbeef;
+		System.out.println("Decimal="+decimal);
+		System.out.println("Ocatial="+ocatal);
+		System.out.println("Hexdeciamal="+hexdecimal);
+		
+		String HextoDEC=Integer.toHexString(hexdecimal);
+		System.out.println("HExDEC="+HextoDEC);
+		char ch=65;
+		for(int i=0;i<30;i++)
+		System.out.println("Char max="+ch);
+	}
+
+}

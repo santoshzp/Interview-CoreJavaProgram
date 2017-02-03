@@ -1,0 +1,19 @@
+package com.santosh.collection.treeSet;
+
+import java.util.List;
+
+import com.santosh.collection.ListOfOrders;
+import com.santosh.model.Orders;
+
+public class CustomerOrder {
+	
+		public static void main(String[] args) {
+			ListOfOrders s=new ListOfOrders();
+			List list=s.order();
+			System.out.println(list.size());
+			for(Orders p:list){
+				
+			}
+			
+		}
+}

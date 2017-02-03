@@ -3,7 +3,7 @@ package com.santosh.collection;
 public class Employee {
 	private Integer employeeId;
 	private String employeeName;
-	private String employeeSalary;
+	private double employeeSalary;
 	
 	public Integer getEmployeeId() {
 		return employeeId;
@@ -17,10 +17,10 @@ public class Employee {
 	public void setEmployeeName(String employeeName) {
 		this.employeeName = employeeName;
 	}
-	public String getEmployeeSalary() {
+	public double getEmployeeSalary() {
 		return employeeSalary;
 	}
-	public void setEmployeeSalary(String employeeSalary) {
+	public void setEmployeeSalary(double employeeSalary) {
 		this.employeeSalary = employeeSalary;
 	}
 	@Override

@@ -1,0 +1,13 @@
+package com.santosh.collection.treeSet;
+
+import javax.swing.SortingFocusTraversalPolicy;
+
+public class MainSroting {
+	public static void main(String[] args) {
+		SortOpeation s=new SortOpeation();
+		s.readValue();
+		TreeSet t=s.readValue();
+		s.displayOrders(t);
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.santosh.collection.Stack;
+
+public class StackDemo {
+	public static void main(String[] args) {
+		Stack s=new Stack();
+	}
+
+}

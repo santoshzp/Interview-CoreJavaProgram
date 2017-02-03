@@ -1,0 +1,13 @@
+package com.santosh.collection.Vector;
+
+import java.util.Vector;
+
+public class Vectordemo {
+	
+	public static void main(String[] args) {
+		Vector v=new Vector<>();
+		System.out.println("Containts="v);
+		System.out.println("size=="+v.size());
+	}
+
+}

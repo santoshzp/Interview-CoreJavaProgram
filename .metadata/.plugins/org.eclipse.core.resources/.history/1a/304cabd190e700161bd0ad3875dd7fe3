@@ -1,0 +1,12 @@
+package com.santosh.collection.treeSet;
+
+import java.util.Scanner;
+import java.util.TreeSet;
+
+public class SortOpeation {
+	public static void main(String[] args) {
+		TreeSet ts=new TreeSet<>();
+		Scanner scanner = new Scanner(System.in)
+	}
+
+}

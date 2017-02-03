@@ -1,0 +1,19 @@
+package com.santosh.collection.map.treeSet;
+
+import java.util.Scanner;
+import java.util.TreeMap;
+
+public class PhoneBook {
+	
+	TreeMap tm;
+	Scanner s=new Scanner(System.in);
+	public PhoneBook(){
+		tm=new TreeMap();
+	}
+	
+	public void addContact(){
+		System.out.println("------------------------------");
+		System.out.println("Enter how many contact ");
+		int n=Integer.parseInt(s)
+	}
+}

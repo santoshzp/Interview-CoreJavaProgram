@@ -1,0 +1,17 @@
+package com.santosh.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class ListOfOrders {
+	
+	public List order(){
+		Scanner s=new Scanner(System.in);
+		List l=new ArrayList();
+		l.add(e)
+		
+		
+	}
+
+}

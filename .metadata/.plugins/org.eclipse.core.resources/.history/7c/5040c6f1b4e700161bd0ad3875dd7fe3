@@ -1,0 +1,20 @@
+package com.test;
+
+import java.util.Scanner;
+
+public class finSameWord {
+	public static void main(String[] args) {
+		
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter First line=");
+		String s1=s.nextLine();
+		System.out.println("Enter second line=");
+		String s2=s.nextLine();
+		
+		String a[]=s1.split("\\s");
+		String b[]=s2.split("\\s");
+		System.out.println("s1 length="+a.length+" s2="+b.length);
+				
+	}
+
+}
